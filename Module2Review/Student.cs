@@ -12,6 +12,13 @@ namespace Module2Review
 		{
 		}
 
+        public Student(string name, int idNumber)
+        {
+            Name = name;
+            ID = idNumber;
+        }
+
+
         //Create a property called Name of type string
         public string Name { get; set; }
 
@@ -20,6 +27,17 @@ namespace Module2Review
 
         //Create a property called Grades of type List
         public List<double> Grades = new List<double>();
+
+        //GOING ROGUE: create properties for each class grade
+        public double MathGrade { get; set; }
+
+        public double EnglishGrade { get; set; }
+
+        public double ScienceGrade { get; set; }
+
+        public double HistoryGrade { get; set; }
+
+        public List<double> OtherGrades = new List<double>();
 
         //Create a method called AddGrade in the Student class
         public void AddGrade(double grade)
@@ -32,6 +50,7 @@ namespace Module2Review
             Grades.AddRange(grades);
         }
 
+        //Create a method called CalculateAverageGrade in the Student class
         public double CalculateAverageGrade()
         {
             return (Grades.Count == 0) ? 0 : Grades.Average();
