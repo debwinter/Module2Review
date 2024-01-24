@@ -37,7 +37,7 @@ namespace Module2Review
 
         public double HistoryGrade { get; set; }
 
-        public List<double> OtherGrades = new List<double>();
+        public double[] OtherGrades { get; set; }
 
         //Create a method called AddGrade in the Student class
         public void AddGrade(double grade)

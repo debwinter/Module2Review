@@ -1,0 +1,15 @@
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/bin/Debug/net6.0/Module2Review
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/bin/Debug/net6.0/Module2Review.deps.json
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/bin/Debug/net6.0/Module2Review.runtimeconfig.json
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/bin/Debug/net6.0/Module2Review.dll
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/bin/Debug/net6.0/Module2Review.pdb
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/obj/Debug/net6.0/Module2Review.csproj.AssemblyReference.cache
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/obj/Debug/net6.0/Module2Review.GeneratedMSBuildEditorConfig.editorconfig
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/obj/Debug/net6.0/Module2Review.AssemblyInfoInputs.cache
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/obj/Debug/net6.0/Module2Review.AssemblyInfo.cs
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/obj/Debug/net6.0/Module2Review.csproj.CoreCompileInputs.cache
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/obj/Debug/net6.0/Module2Review.dll
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/obj/Debug/net6.0/refint/Module2Review.dll
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/obj/Debug/net6.0/Module2Review.pdb
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/obj/Debug/net6.0/Module2Review.genruntimeconfig.cache
+/Users/debrawinter/Desktop/Repos/Module2Review/Module2Review/obj/Debug/net6.0/ref/Module2Review.dll
