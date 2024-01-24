@@ -99,6 +99,49 @@ class Program
             Console.WriteLine();
         }
 
+        Console.WriteLine("-----------------------------------");
+
+        //BONUS: Enroll students in courses
+        Course c1 = new Course() { CourseName = "Home Economics", CourseCode = "41678J"};
+        Course c2 = new Course() { CourseName = "Photography", CourseCode = "437289L"};
+        Course c3 = new Course() { CourseName = "Social Studies", CourseCode = "643127897T"};
+        Course c4 = new Course() { CourseName = "Spanish", CourseCode = "3562189S"};
+        Course c5 = new Course() { CourseName = "French", CourseCode = "4362789F"};
+        Course c6 = new Course() { CourseName = "Show Choir", CourseCode = "43621789E"};
+
+        c1.Register(s1);
+        c1.Register(s3);
+        c1.Register(s4);
+
+        c2.Register(s4);
+        c2.Register(s2);
+
+        c3.Register(s4);
+        c3.Register(s4);
+
+        c4.Register(s1);
+        c4.Register(s2);
+        c4.Register(s4);
+
+        c5.Register(s4);
+
+        c6.Register(s4);
+        c6.Register(s1);
+
+        List<Course> courseList = new List<Course>() { c1, c2, c3, c4, c5, c6 };
+
+        foreach (Course c in courseList)
+        {
+            Console.WriteLine($"Students enrolled in {c.CourseName} (Course ID #{c.CourseCode}):");
+            int numberOfStudents = 0;
+            foreach (Student s in c.EnrolledStudents)
+            {
+                Console.WriteLine($"- {s.Name} (#{s.ID})");
+                numberOfStudents++;
+            }
+            Console.WriteLine($"Total enrollment: {numberOfStudents}");
+            Console.WriteLine();
+        }
     }
 }
 
