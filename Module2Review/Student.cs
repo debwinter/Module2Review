@@ -32,7 +32,10 @@ namespace Module2Review
             Grades.AddRange(grades);
         }
 
-
+        public double CalculateAverageGrade()
+        {
+            return (Grades.Count == 0) ? 0 : Grades.Average();
+        }
 
 	}
 }
